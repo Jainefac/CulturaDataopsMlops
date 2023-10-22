@@ -4,7 +4,7 @@ FROM python:3.8-slim
 # Instalar pandas
 RUN pip install pandas
 
-# Copiar código Python 
+# ódigo Python 
 COPY main.py .
 
 # executar o script
